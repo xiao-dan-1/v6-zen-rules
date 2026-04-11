@@ -1,0 +1,40 @@
+[
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "fd00::/8"
+    ],
+    "enabled": true,
+    "remarks": "Local_Direct"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "0.0.0.0/0"
+    ],
+    "enabled": true,
+    "remarks": "Legacy_IPv4"
+  },
+  {
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "geosite:cn",
+      "geoip:cn"
+    ],
+    "enabled": true,
+    "remarks": "China_V6"
+  },
+  {
+    "port": "",
+    "outboundTag": "proxy",
+    "ip": [
+      "::/0"
+    ],
+    "enabled": true,
+    "remarks": "Global_V6"
+  }
+]
