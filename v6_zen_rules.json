@@ -21,8 +21,10 @@
   {
     "port": "",
     "outboundTag": "direct",
+    "domain": [
+      "geosite:cn"
+    ],
     "ip": [
-      "geosite:cn",
       "geoip:cn"
     ],
     "enabled": true,
