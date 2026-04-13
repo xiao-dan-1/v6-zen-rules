@@ -3,8 +3,7 @@
     "port": "",
     "outboundTag": "direct",
     "ip": [
-      "geoip:private",
-      "fd00::/8"
+      "geoip:private"
     ],
     "enabled": true,
     "remarks": "Local_Direct"
@@ -21,9 +20,6 @@
   {
     "port": "",
     "outboundTag": "direct",
-    "domain": [
-      "geosite:cn"
-    ],
     "ip": [
       "geoip:cn"
     ],
