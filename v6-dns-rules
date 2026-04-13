@@ -1,0 +1,12 @@
+{
+  "servers": [
+    {
+      "address": "10.1.4.16",
+      "port": 53,
+      "domains": ["geosite:cn"],
+      "skipFallback": true,
+      "queryStrategy": "UseIPv6"
+    },
+    "https://8.8.8.8/dns-query"
+  ]
+}
